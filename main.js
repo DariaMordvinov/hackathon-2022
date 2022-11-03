@@ -31,7 +31,7 @@ for (const idiom in library) {
         console.log('Match!');
         matchObj[idiom] = library[idiom];
         console.log(matchObj);
-        // giveMeaning(idiom, regex);   
+        // giveMeaning(idiom, regex);
     }
 }
 
