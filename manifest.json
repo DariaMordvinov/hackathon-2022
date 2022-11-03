@@ -1,0 +1,6 @@
+{
+    "manifest_version": 3,
+    "name": "IdiomScribe",
+    "version": "1.0",
+    "description": "Finds idioms on a page and displays their meaning for the user"
+  }

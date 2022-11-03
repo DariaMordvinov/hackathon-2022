@@ -17,9 +17,15 @@ const library = {
 
 //loop through the contents of the library
 for (const idiom in library) {
-
+    //create new regex with the current idiom
+    const regex = new RegExp(`${idiom}`);
+    const body = document.querySelector('body');
+    bodyInnerText = body.innerText;
+    const match = bodyInnerText.match(regex);
     //if any of the current idioms match with content on the web page, run the functionality for the user
-    
+    if (match) {
+        giveMeaning(idiom);
+    }
 }
 
 console.log(library);
